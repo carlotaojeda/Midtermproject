@@ -95,7 +95,7 @@ def jugadores_estadistica_maximo(stats:str):
     filter = {}
     project = {"_id":0, "nombre":1, column:1}
 
-    res = db["players"].find(filter, project).sort(column, -1).limit(2)
+    res = list(db["players"].find(filter, project).sort(column, -1).limit(2))
     
     try:   
         return loads(json_util.dumps(res[0]))
