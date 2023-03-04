@@ -8,8 +8,13 @@ from data.get_data import get_all_players_name, get_all_statistic_per_player
 def comparar_jugador():
     
     # Creamos un título para nuestra página
-    st.image ("https://www.spainenglish.com/wp-content/uploads/2020/03/EURO_2020_Logo_Lnd_OnLight_FC_CMYK-1024x375.png")
+    st.image ("https://phantom-marca.unidadeditorial.es/c3dad7b360ab2410fca3991721db8740/resize/1320/f/jpg/assets/multimedia/imagenes/2021/06/11/16234017254168.jpg")
     st.title("Comparar jugadores")
+    st.subheader ("Elige dos jugadores de la Eurocopa 2020 para poder comparar las estadísticas.")
+    st.markdown ("1. Los números de goles durante la Eurocopa 2020")
+    st.markdown ("2. Total de asistencias")
+    st.markdown ("3. Total de tarjetas Amarillas")
+    st.markdown ("4. Total de tarjetas Rojas")
     # Obtenemos la lista de jugadores utilizando la función get_all_players_name
     lista_jugadores = get_all_players_name()
 
@@ -38,7 +43,7 @@ def comparar_jugador():
     x = np.arange(len(etiquetas))
 
     # Definimos el ancho de cada barra
-    width = 0.35
+    width = 0.25
 
     # Creamos una figura y un eje para la gráfica
     fig, ax = plt.subplots()
