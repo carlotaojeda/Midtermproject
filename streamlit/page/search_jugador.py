@@ -4,6 +4,7 @@ from data.get_data import get_all_players_name, get_all_statistic_per_player
 def search_jugador():
     
     st.title("Busca un jugador")
+    st.image ("https://okdiario.com/img/2021/05/30/jugadores-eurocopa-655x368.jpg")
 
     lista_jugadores = get_all_players_name()
 
@@ -15,7 +16,7 @@ def search_jugador():
     table = f"""
         <table>
             <tr>
-                <td><b>Equipo:</b></td>
+                <td><b>Nombre:</b></td>
                 <td>{stats['nombre']}</td>
             </tr>
             <tr>
