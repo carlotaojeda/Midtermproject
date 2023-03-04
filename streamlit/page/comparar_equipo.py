@@ -8,7 +8,7 @@ from data.get_data import get_all_teams_names, get_all_statistic_per_team
 def comparar_teams():
     
     # Creamos un título para nuestra página
-    st.image ("https://www.spainenglish.com/wp-content/uploads/2020/03/EURO_2020_Logo_Lnd_OnLight_FC_CMYK-1024x375.png")
+    st.image ("https://img.republicworld.com/republic-prod/stories/images/162503626160dc15e5c9cbc.png")
     st.title("Comparar equipos")
     # Obtenemos la lista de jugadores utilizando la función get_all_players_name
     lista_equipos = get_all_teams_names()
