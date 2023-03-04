@@ -4,6 +4,7 @@ from data.get_data import get_all_teams_names, get_all_statistic_per_team
 def search_equipo():
     
     st.title("Busca un equipo")
+    st.image ("https://e00-marca.uecdn.es/assets/multimedia/imagenes/2018/12/02/15437514534555.jpg")
 
     lista_equipos = get_all_teams_names()
 
