@@ -20,19 +20,19 @@ def search_jugador():
                 <td>{stats['nombre']}</td>
             </tr>
             <tr>
-                <td><b>Posesión total:</b></td>
+                <td><b>Goles:</b></td>
                 <td>{stats['goles']}%</td>
             </tr>
             <tr>
-                <td><b>Goles a favor:</b></td>
+                <td><b>Asistencias:</b></td>
                 <td>{stats['asistencias']}</td>
             </tr>
             <tr>
-                <td><b>Goles en contra:</b></td>
+                <td><b>Tarjetas Rojas:</b></td>
                 <td>{stats['tarjetas_rojas']}</td>
             </tr>
             <tr>
-                <td><b>Shots totales:</b></td>
+                <td><b>Tarjetas Amarillas:</b></td>
                 <td>{stats['tarjetas_amarillas']}</td>
             </tr>
         </table>
