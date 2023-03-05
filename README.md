@@ -1,18 +1,15 @@
-# Midtermproject
+# EuroCopa 2020
 
-The midproject is based on Data from Euro 2020. The idea is to have an idea of general information about the players and events that each of them had and then also wide information about the teams. 
+I have created a dashboard with the main statistics from the olayers and teams that took part of the 2020 Eurocopa. You will be able to select a team or players and compare their statistics, but also to select one of them and check all of the individual statistics. 
 
-<h2> GOAL <H2/>
-    
-    - [] Create an API: Define end poits and quary parameters. Connect this to our DDBB
-    - [] Create a Dashboard in Streamlit and prepare visualization parameters
-    - [] Service conection 
-    
-    
-<h2> STEPS <H2/>
-    
-    1. Clean data from CSV, many data are strings or have spaces useless which will make our data base not to be usefull and we need to transform to the right type in order to make easier future operations. 
-    2. Create functions to collect information that we will use in the future dashboard 
-    
+
+## How did we created? 
+
+- Clone our repository to work on it. 
+- Create 3 main folder where we will divide all of the information we will be working on. 
+- First Folder: DATA (Where we cleaned up all of the data that we were going to use for our ddbb)
+- Second Folder: API. (Where we defined the endpoitns and created the conexion with the ddbb).
+- Third Folder: SREAMLIT (Conextion between ddbb and API to receive information and visualization of it)
+  
     
     
