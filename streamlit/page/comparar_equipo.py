@@ -32,7 +32,7 @@ def comparar_teams():
     team_2_estadisticas = [resultado_2['posesion_total'], resultado_2['goles_a_favor'], resultado_2['goles_en_contra'], resultado_2['shots_totales'], resultado_2['shots_puerta']]
 
     # Creamos una lista con las etiquetas para la gráfica
-    etiquetas = ['Posesion', 'Goles a favor', 'Goles en contra', 'Shots totales', 'Shots a puerta']
+    etiquetas = ['Posesion', 'Goles', 'En contra', 'Shots ', 'Shots a puerta']
 
     # Creamos un arreglo de números espaciados uniformemente utilizando numpy
     x = np.arange(len(etiquetas))
@@ -61,6 +61,7 @@ def comparar_teams():
 
     # Mostramos la gráfica en Streamlit utilizando la función st.pyplot()
     st.pyplot(fig)
+    plt.xticks(rotation=90)
 
 
 
