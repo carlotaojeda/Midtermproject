@@ -13,3 +13,38 @@ I have created a dashboard with the main statistics from the olayers and teams t
   
     
     
+## What can we find on the dashboard?
+
+On the dashboard we can find the home page where we explain what can you find on this dashboard. If you follow the instructions you will be able to select from the left bar the view you want to check and the data you are interested to find from Euro2020. 
+
+
+![home](https://d2rotg0vbwjq4a.cloudfront.net/images/media/375/h/home-uefa.jpeg)
+
+
+Selecting a page from the left bar you will be able to find:
+
+-  Look for each player's statistics. 
+
+![buscar equipo](https://d2rotg0vbwjq4a.cloudfront.net/images/media/375/b/buscarjugador2.jpeg)
+
+-  Look for each teams's statistics. 
+
+![buscar equipo](https://d2rotg0vbwjq4a.cloudfront.net/images/media/375/b/buscarjugador.jpeg)
+
+-  Compare statistics from two different teams. 
+
+![buscar equipo](https://d2rotg0vbwjq4a.cloudfront.net/images/media/375/c/compararequipo.jpeg)
+
+-  Compare statistics from two different players
+
+![buscar equipo](https://d2rotg0vbwjq4a.cloudfront.net/images/media/375/c/compararjugador2.jpeg)
+
+
+
+## Acknowledgements
+
+ I would like to thank specially Daniel for helping me out with this project. I would not be able to finish it with his help during this week. 
+ All of the time working hand to hand has touch me a lot and I really appreciate it. 
+
+ Also thank you Santino for being there when I asked for help. It has been a really good experience :)
+
